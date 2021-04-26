@@ -23,7 +23,7 @@
 				<string>DSDT.aml</string>
 			</dict>
 			<dict>
-				<key>Comment</key>
+			<key>Comment</key>
 				<string>My custom SSDT</string>
 				<key>Enabled</key>
 				<false/>
@@ -366,15 +366,39 @@
 				<key>acpi-wake-type</key>
 				<data>AQ==</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>Audio device</string>
 				<key>layout-id</key>
-				<data>BwAAAA==</data>
+				<data>
+				BwAAAA==
+				</data>
+				<key>model</key>
+				<string>Cannon Lake PCH cAVS</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AACbPg==</data>
+				<data>
+				BwCbPg==
+				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device-id</key>
+				<data>
+				mD4AAA==
+				</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>framebuffer-patch-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>model</key>
+				<string>Intel UHD Graphics 630 (Desktop 9 Series)</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
