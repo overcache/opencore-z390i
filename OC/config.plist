@@ -23,7 +23,7 @@
 				<string>DSDT.aml</string>
 			</dict>
 			<dict>
-			<key>Comment</key>
+				<key>Comment</key>
 				<string>My custom SSDT</string>
 				<key>Enabled</key>
 				<false/>
@@ -373,30 +373,22 @@
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>layout-id</key>
-				<data>
-				BwAAAA==
-				</data>
+				<data>BwAAAA==</data>
 				<key>model</key>
 				<string>Cannon Lake PCH cAVS</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				BwCbPg==
-				</data>
+				<data>BwCbPg==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>device-id</key>
-				<data>
-				mD4AAA==
-				</data>
+				<data>mD4AAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>model</key>
 				<string>Intel UHD Graphics 630 (Desktop 9 Series)</string>
 			</dict>
@@ -1035,9 +1027,9 @@
 				<key>boot-args</key>
 				<string>-v debug=0x100 keepsyms=1 swd_panic=1 igfxonln=1</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
-				<data>cnUtUlU6MjUy</data>
+				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -1056,6 +1048,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+				<string>csr-active-config</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
